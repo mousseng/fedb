@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [Heroes].[HeroWeapon]
 (
-    [id] INT NOT NULL PRIMARY KEY, 
+    [id] INT IDENTITY NOT NULL PRIMARY KEY, 
     [hero] INT NOT NULL, 
     [weapon] INT NOT NULL, 
     [rarity] INT NOT NULL,

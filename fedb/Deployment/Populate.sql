@@ -682,7 +682,6 @@ VALUES
     (354, 'Swift Mulagir', 14, 'Effective against flying foes. Grants Res+3. If the number of allies within 2 spaces (excluding unit) > the number of foes within 2 spaces (excluding target), grants Atk/Spd+5 during combat.', 'M', @bow, 400, @true),
     (355, 'Warrior Princess', 14, 'Effective against flying and armored foes. Grants Spd+3. Grants Atk+3 to allies within 2 spaces during combat.', 'M', @bow, 400, @true)
 
--- TODO: add pkey id
 INSERT INTO [Heroes].[HeroWeapon] (hero, weapon, rarity)
 VALUES
     -- abel
