@@ -27,6 +27,7 @@ i might be missing something:
   - [-] heroes
     - still need to add stats and growths
     - maybe include something about boons/banes? not sure
+    - could be best to just add a separate table for the rest
   - [-] hero-weapon mappings
     - incomplete data
   - [ ] hero-assist mappings
