@@ -70,6 +70,7 @@
     <Build Include="Tables\Hero.sql" />
     <Build Include="Tables\Weapon.sql" />
     <Build Include="Tables\HeroWeapon.sql" />
+    <Build Include="Tables\Assist.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Deployment\Populate.sql" />
