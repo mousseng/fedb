@@ -4,6 +4,7 @@
     [name] VARCHAR(50) NOT NULL,
     [effect] VARCHAR(300) NULL,
     [cost] INT NOT NULL,
+    [type] CHAR NOT NULL,
 
     [is_exclusive] BIT NOT NULL,
 
@@ -25,7 +26,9 @@
     [allow_red] BIT NOT NULL,
     [allow_blue] BIT NOT NULL,
     [allow_green] BIT NOT NULL,
-    [allow_colorless] BIT NOT NULL
+    [allow_colorless] BIT NOT NULL,
+
+    CONSTRAINT [CK_Passive_Type] CHECK ([type] IN ('A', 'B', 'C', 'S'))
 )
 
 

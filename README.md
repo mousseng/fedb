@@ -21,9 +21,9 @@ i might be missing something:
   - [x] move types
   - [x] weapon types
   - [x] weapons
-  - [ ] assists
-  - [ ] specials
-  - [ ] passives and seals
+  - [-] assists
+  - [-] specials
+  - [-] passives and seals
   - [-] heroes
     - still need to add stats and growths
     - maybe include something about boons/banes? not sure
